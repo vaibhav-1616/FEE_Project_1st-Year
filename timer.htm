@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer HTML</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="Project(Home Page).htm" target="_self">
+            <img src="logo1.png" alt="Logo" id="logo">
+        </a>
+        <ul>
+            <!-- <li><a href="Project(Home Page).htm" target="_self">Home</a></li> -->
+            <li><a href="About_us.htm" target="_self">About Us</a></li>
+            <li><a href="contact_us.htm" target="_self">Contact Us</a></li>
+            <li><a href="timer.htm" target="_self">Sample Product</a></li>
+          </ul>
+    </div>
+
+    <div id="write"></div> 
+
+    <input type="datetime-local" id="show"> 
+
+    <button id='btn' onclick='timer()'> Submit</button> <br> <br>
+    
+    <h1><i>Countdown Timer</i></h1>
+    <div class="countdown" id="countdown">
+        <div class="time">
+            <input type="text" id="days"> <br>
+            <small>Days</small>
+        </div>
+
+        <div class="time">
+            <input type="text" id="hours"> <br>
+            <small>Hours</small>
+        </div>
+
+        <div class="time">
+            <input type="text" id="minutes"> <br>
+            <small>Minutes</small>
+        </div>
+
+        <div class="time">
+            <input type="text" id="seconds"> <br>
+            <small>Seconds</small>
+        </div>
+    </div> <br>
+    <script src="timer.js"></script>
+
+</body>
+</html>
